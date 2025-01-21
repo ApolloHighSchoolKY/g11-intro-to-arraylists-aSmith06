@@ -1,4 +1,4 @@
-//© A+ Computer Science
+//ï¿½ A+ Computer Science
 // www.apluscompsci.com
 
 //ArrayList set() example
@@ -18,7 +18,7 @@ public class Set
 		ray.add(53);
 		ray.set(1,93);
 		ray.add(22);
-		//ray.set(7, 99);		//what does this do?
+		//ray.set(7, 99);		//what does this do? out of bounds exception
 		out.println(ray);
 	}
 }

@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 
 //ArrayList remove() example
 
@@ -23,6 +23,11 @@ public class RemoveAll
 		out.println(ray);
 
 		//add in a loop to remove all occurrences of all
+		for(int i = ray.size()-1; i >= 0; i--){
+			if(ray.get(i).equals("all"))
+				ray.remove(i);
+		}
+		out.println(ray);
 
 
 	}

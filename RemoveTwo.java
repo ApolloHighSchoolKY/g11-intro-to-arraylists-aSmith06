@@ -1,4 +1,4 @@
-//© A+ Computer Science
+//ï¿½ A+ Computer Science
 // www.apluscompsci.com
 
 //ArrayList remove() example
@@ -27,7 +27,7 @@ public class RemoveTwo
 		out.println(ray);
 		ray.remove("d");
 		ray.remove("d");
-		ray.remove("d");
+		ray.remove("d"); //Excessive -> wated processing time
 
 		out.println(ray);
 	}
